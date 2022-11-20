@@ -17,6 +17,11 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
+# Foundation
+gem 'inky-rb', require: 'inky'
+# Stylesheet inlining for email
+gem 'premailer-rails'
+
 group :development do
   gem 'listen', '~> 3.2'
 
