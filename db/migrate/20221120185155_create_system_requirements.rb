@@ -3,7 +3,6 @@ class CreateSystemRequirements < ActiveRecord::Migration[6.0]
     create_table :system_requirements do |t|
       t.string :name
       t.string :operational_system
-      t.string :string
       t.string :storage
       t.string :processor
       t.string :memory
