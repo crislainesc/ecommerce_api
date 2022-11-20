@@ -22,6 +22,9 @@ gem 'inky-rb', require: 'inky'
 # Stylesheet inlining for email
 gem 'premailer-rails'
 
+# Cors
+gem 'rack-cors', '~> 1.1.1'
+
 group :development do
   gem 'listen', '~> 3.2'
 
